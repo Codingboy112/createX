@@ -1,0 +1,56 @@
+.hero__wrapper {
+  gap: 40px;
+}
+
+.header {
+  background-color: blanchedalmond;
+}
+
+.another__color {
+  background-color: blanchedalmond;
+}
+.second__hero {
+  background-image: url("../..//assets/illustration.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 992px) {
+  .first__hero,
+  .second__hero {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero__wrapper {
+    flex-direction: column;
+  }
+  .second__hero {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .first__hero {
+    .button__flexer {
+      flex-direction: column;
+    }
+  }
+}
+
+
+ul {
+  list-style-type: none; 
+}
+
+.before__li{
+  background: url("../../assets/check.svg") no-repeat left center; 
+  background-size: 20px 20px;
+  margin-top: 4px;
+  padding-left: 30px; 
+}

@@ -1,0 +1,20 @@
+{
+  "name": "createx",
+  "version": "1.0.0",
+  "description": "createX site done!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap",
+    "js"
+  ],
+  "author": "Vohidov Sarvarbek",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "5.3"
+  }
+}

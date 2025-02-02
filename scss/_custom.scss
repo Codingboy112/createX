@@ -1,0 +1,23 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+.btn-warning {
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+}
+
+
+
+.w-40{
+  width: 40%;
+}
+
+.w-35{
+  width: 35%;
+}
+
+.btn-outline-warning{
+  @extend .btn-outline-warning;
+  border-color: #ff3f3a;
+  color: #ff3f3a;
+}
