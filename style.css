@@ -11987,12 +11987,12 @@ textarea.form-control-lg {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 .hero__wrapper {
@@ -12000,11 +12000,11 @@ html {
 }
 
 .header {
-  background-color: blanchedalmond;
+  background-color: #fedcd2;
 }
 
 .another__color {
-  background-color: blanchedalmond;
+  background-color: #fedcd2;
 }
 
 .second__hero {
@@ -12057,4 +12057,14 @@ ul {
   box-shadow: 0px 12px 10px -6px rgba(154, 156, 165, 0.0784313725);
   box-shadow: 0px 30px 24px -10px rgba(154, 156, 165, 0.1019607843);
   box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.1607843137);
+}
+
+.lecture {
+  background: #fedbd4;
+  padding: 30px 0px;
+}
+.lecture .asdasd {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
